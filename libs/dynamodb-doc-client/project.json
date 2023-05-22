@@ -16,8 +16,32 @@
       }
     },
     "publish": {
-      "command": "node tools/scripts/publish.mjs dynamodb-doc-client {args.ver} {args.tag}",
+      "command": "node tools/scripts/publish.mjs dynamodb-doc-client",
       "dependsOn": ["build"]
+    },
+    "npm-major": {
+      "executor": "nx:run-commands",
+      "options": {
+        "parallel": false,
+        "cwd": "./",
+        "commands": ["npm version major"]
+      }
+    },
+    "npm-minor": {
+      "executor": "nx:run-commands",
+      "options": {
+        "parallel": false,
+        "cwd": "./",
+        "commands": ["npm version minor"]
+      }
+    },
+    "npm-patch": {
+      "executor": "nx:run-commands",
+      "options": {
+        "parallel": false,
+        "cwd": "./",
+        "commands": ["npm version patch"]
+      }
     },
     "lint": {
       "executor": "@nx/linter:eslint",

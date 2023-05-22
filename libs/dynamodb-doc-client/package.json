@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/wiowou/bippo-nest.git"
   },
-  "homepage": "https://github.com/wiowou/bippo-nest#readme",
+  "homepage": "https://github.com/wiowou/bippo-nest/blob/master/libs/dynamodb-doc-client/README.md",
   "peerDependencies": {
     "@aws-sdk/client-dynamodb": "^3.0.0",
     "@aws-sdk/lib-dynamodb": "^3.0.0",
