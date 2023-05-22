@@ -4,18 +4,21 @@
   "license": "MIT",
   "scripts": {},
   "private": true,
-  "dependencies": {
-    "@nestjs/common": "^9.1.1",
-    "@nestjs/core": "^9.1.1",
-    "@nestjs/platform-express": "^9.1.1",
+  "peerDependencies": {
+    "@aws-sdk/client-dynamodb": "^3.0.0",
+    "@aws-sdk/lib-dynamodb": "^3.0.0",
+    "@aws-sdk/util-dynamodb": "^3.0.0",
+    "@nestjs/common": "^9.0.0",
+    "@nestjs/core": "^9.0.0",
+    "@nestjs/platform-express": "^9.0.0",
     "axios": "^1.0.0",
     "reflect-metadata": "^0.1.13",
-    "rxjs": "^7.8.0",
-    "tslib": "^2.3.0"
+    "rxjs": "^7.0.0",
+    "tslib": "^2.0.0"
   },
   "devDependencies": {
-    "@nestjs/schematics": "^9.1.0",
-    "@nestjs/testing": "^9.1.1",
+    "@nestjs/schematics": "^9.0.0",
+    "@nestjs/testing": "^9.0.0",
     "@nx/eslint-plugin": "16.2.1",
     "@nx/jest": "16.2.1",
     "@nx/js": "16.2.1",

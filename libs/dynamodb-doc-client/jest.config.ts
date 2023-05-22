@@ -1,11 +1,11 @@
 /* eslint-disable */
 export default {
-  displayName: 'foobar',
+  displayName: 'dynamodb-doc-client',
   preset: '../../jest.preset.js',
   testEnvironment: 'node',
   transform: {
     '^.+\\.[tj]s$': ['ts-jest', { tsconfig: '<rootDir>/tsconfig.spec.json' }],
   },
   moduleFileExtensions: ['ts', 'js', 'html'],
-  coverageDirectory: '../../coverage/apps/foobar',
+  coverageDirectory: '../../coverage/libs/dynamodb-doc-client',
 };

@@ -1,0 +1,26 @@
+{
+  "name": "@bippo-nest/dynamodb-doc-client",
+  "version": "0.0.1",
+  "type": "commonjs",
+  "license": "MIT",
+  "keywords": [
+    "nest",
+    "dynamodb",
+    "client"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wiowou/bippo-nest.git"
+  },
+  "homepage": "https://github.com/wiowou/bippo-nest#readme",
+  "peerDependencies": {
+    "@aws-sdk/client-dynamodb": "^3.0.0",
+    "@aws-sdk/lib-dynamodb": "^3.0.0",
+    "@aws-sdk/util-dynamodb": "^3.0.0",
+    "@nestjs/common": "^9.0.0",
+    "@nestjs/core": "^9.0.0",
+    "tslib": "^2.0.0"
+  },
+  "devDependencies": {},
+  "dependencies": {}
+}

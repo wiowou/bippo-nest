@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@bippo-nest/dynamodb-doc-client": [
+        "libs/dynamodb-doc-client/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
