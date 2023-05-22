@@ -25,5 +25,5 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NODE_AUTH_TOKEN }}
       - run: npm ci
-      - run: npx nx affected --parallel=2 --target=lint
-      - run: npx nx affected --parallel=2 --target=publish
+      - run: npx nx affected --parallel=2 --target=lint --base=HEAD~1 --head=HEAD
+      - run: npx nx affected --parallel=2 --target=publish --base=HEAD~1 --head=HEAD
