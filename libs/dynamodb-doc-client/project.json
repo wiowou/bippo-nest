@@ -23,7 +23,7 @@
       "executor": "nx:run-commands",
       "options": {
         "parallel": false,
-        "cwd": "./",
+        "cwd": "./libs/dynamodb-doc-client",
         "commands": ["npm version major"]
       }
     },
@@ -31,7 +31,7 @@
       "executor": "nx:run-commands",
       "options": {
         "parallel": false,
-        "cwd": "./",
+        "cwd": "./libs/dynamodb-doc-client",
         "commands": ["npm version minor"]
       }
     },
@@ -39,7 +39,7 @@
       "executor": "nx:run-commands",
       "options": {
         "parallel": false,
-        "cwd": "./",
+        "cwd": "./libs/dynamodb-doc-client",
         "commands": ["npm version patch"]
       }
     },
