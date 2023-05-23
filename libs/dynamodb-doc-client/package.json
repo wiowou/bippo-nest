@@ -1,6 +1,6 @@
 {
   "name": "@bippo-nest/dynamodb-doc-client",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "commonjs",
   "license": "MIT",
   "keywords": [
