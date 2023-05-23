@@ -16,7 +16,7 @@
       }
     },
     "publish": {
-      "command": "node tools/scripts/publish.mjs dynamodb-doc-client",
+      "command": "node tools/scripts/publish.mjs dynamodb-doc-client --tag {args.tag}",
       "dependsOn": ["build"]
     },
     "npm-major": {
